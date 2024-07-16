@@ -117,3 +117,24 @@ button {
   color: white;
 }
 /* Banner section style /////////////////// */
+
+/* Popular section style/////////////////// */
+.popular-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.popular-section h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.popular-section p,
+li {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(19, 19, 24, 0.7);
+}
