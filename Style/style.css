@@ -4,7 +4,7 @@ body {
 }
 * {
   margin: 0px;
-  padding: 0px;
+  /* padding: 0px; */
 }
 /* Shared style */
 .container {
@@ -12,13 +12,15 @@ body {
   margin: 5rem auto;
   border-radius: 1rem;
 }
-.span {
-  color: rgba(255, 84, 0, 1);
-}
 .h3 {
   font-size: 2.3rem;
   font-weight: 700;
+  text-align: center;
 }
+.span {
+  color: rgba(255, 84, 0, 1);
+}
+
 li {
   font-size: 1.1rem;
   font-weight: 500;
@@ -122,19 +124,46 @@ button {
 .popular-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  gap: 16rem;
+  /* border: 2px solid red; */
 }
 .popular-section h3 {
   font-size: 2.5rem;
   font-weight: 800;
 }
-.popular-section p,
+.text-content {
+  /* display: flex;
+  flex-direction: column; */
+  row-gap: 2.5rem;
+  /* justify-content: space-between; */
+  /* border: 2px solid yellow; */
+}
+.text-content p,
 li {
   font-size: 1rem;
   font-weight: 400;
   color: rgba(19, 19, 24, 0.7);
+}
+
+/* .text-content  */
+#ulid li {
+  margin: 15px;
+  margin-left: 20px;
+}
+
+/* Your destination... */
+.your-destination {
+  text-align: center;
+  border: 2px solid red;
+}
+.row-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid rgb(26, 2, 240);
+}
+
+.country-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid rgb(175, 4, 222);
 }
